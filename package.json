@@ -1,7 +1,6 @@
 {
-  "name": "googlebooksearch",
+  "name": "google-books-app",
   "version": "1.0.0",
-  "description": "",
   "main": "server.js",
   "scripts": {
     "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
@@ -12,10 +11,6 @@
     "install": "cd client && npm install",
     "build": "cd client && npm run build",
     "heroku-postbuild": "npm run build"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Mutahir-Chaudhry/GoogleBookSearch.git"
   },
   "author": "",
   "license": "ISC",
@@ -32,8 +27,5 @@
     "mongoose": "^5.3.16",
     "react-router-dom": "^5.0.0"
   },
-  "bugs": {
-    "url": "https://github.com/Mutahir-Chaudhry/GoogleBookSearch/issues"
-  },
-  "homepage": "https://github.com/Mutahir-Chaudhry/GoogleBookSearch#readme"
+  "description": ""
 }
